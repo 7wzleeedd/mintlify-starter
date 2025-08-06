@@ -1,74 +1,64 @@
 ---
-title: 'Quick Start'
-description: 'Get started with miko in your discord server'
+title: "Quick Start"
+description: "Get started with miko in your discord server"
 ---
 
 <Steps>
   <Step title="bot perms">
-    <p>before adding miko to your server, ensure you have the following permissions:</p>
+    <p>
+    before adding miko to your server, ensure you have the following permissions:</p>
+
     <ul>
-      <li>Administrator permission or equivalent permissions</li>
-      <li>Bot role must be in the top 5 roles of your server</li>
-      <li>Manage Channels permission for voice features</li>
-      <li>Manage Roles permission for moderation features</li>
+    <li>
+    Administrator permission or equivalent permissions</li>
+
+    
+    <li>
+    Bot role must be in the top 5 roles of your server</li>
+
+    
+    <li>
+    Manage Channels permission for voice features</li>
+
+    
+    <li>
+    Manage Roles permission for moderation features</li>
+
     </ul>
   </Step>
-
   <Step title="add miko to tour Server">
-    <p>click [here](https://discord.com/oauth2/authorize?client_id=1401154387371622420) to add miko to your server</p>
+    <p>
+    click here to add miko to your server</p>
   </Step>
-
   <Step title="basic setup">
-    <p>after adding miko, run these essential setup commands:</p>
+    <p>
+    after adding miko, run these essential setup commands:</p>
+
     <CodeGroup>
-      <CodeGroupItem title="Moderation Setup">
-        ```bash
-        ,setup
-        ```
-        Creates a jail channel, log channel, and jail role for moderation
-      </CodeGroupItem>
-      <CodeGroupItem title="Voice Master Setup">
-        ```bash
-        ,voicemaster setup
-        ```
-        Sets up join-to-create voice channels
-      </CodeGroupItem>
-      <CodeGroupItem title="AutoMod Setup">
-        ```bash
-        ,filter setup
-        ```
-        Initializes automod to protect your server
-      </CodeGroupItem>
-      <CodeGroupItem title="AntiNuke Setup">
-        ```bash
-        ,antinuke setup
-        ```
-        Configures server protection against malicious actions
-      </CodeGroupItem>
+
+    ```
+    ,setupCreates a jail channel, log channel, and jail role for moderation
+    ```
+
     </CodeGroup>
   </Step>
+  <Step title="Configure Prefix">
+    Greed's default prefix is <code>
+    ,</code>
 
-<Step title="Configure Prefix">
-  Greed's default prefix is <code>,</code>. To change it, use:
-  ```bash
-  ,prefix <new_prefix>
-  ```
-</Step>
+    . To change it, use:
+
+    ```bash
+    ,prefix <new_prefix>
+    ```
+  </Step>
 </Steps>
 
 <CardGroup cols={2}>
-  <Card
-    title="Need Help?"
-    icon="info"
-    href="https://discord.gg/greedbot"
-  >
+  <Card title="Need Help?" icon="info" href="https://discord.gg/greedbot">
     Join our support server for assistance
   </Card>
-  <Card
-    title="Commands"
-    icon="book"
-    href="/commands"
-  >
+  <Card title="Commands" icon="book" href="/commands">
     Browse our comprehensive command list
   </Card>
 </CardGroup>
@@ -76,51 +66,59 @@ description: 'Get started with miko in your discord server'
 <AccordionGroup>
   <Accordion title="Terms of Service">
     By using Greed, you agree to:
+
     <ul>
-      <li>Use the bot in compliance with Discord's Terms of Service</li>
-      <li>Not use the bot for malicious purposes</li>
-      <li>Not attempt to exploit or abuse the bot's features</li>
-      <li>Not use the bot to violate any laws or regulations</li>
+    <li>
+    Use the bot in compliance with Discord's Terms of Service</li>
+
+    
+    <li>
+    Not use the bot for malicious purposes</li>
+
+    
+    <li>
+    Not attempt to exploit or abuse the bot's features</li>
+
+    
+    <li>
+    Not use the bot to violate any laws or regulations</li>
+
     </ul>
   </Accordion>
   <Accordion title="Privacy Policy">
     Greed collects and stores:
+
     <ul>
-      <li>Server configuration data</li>
-      <li>User moderation history</li>
-      <li>Command usage statistics</li>
-      <li>No personal data is collected or stored</li>
+    <li>
+    Server configuration data</li>
+
+    
+    <li>
+    User moderation history</li>
+
+    
+    <li>
+    Command usage statistics</li>
+
+    
+    <li>
+    No personal data is collected or stored</li>
+
     </ul>
   </Accordion>
 </AccordionGroup>
 
 <CardGroup cols={2}>
-  <Card
-    title="Logging"
-    icon="shield"
-    href="/sever-configuration/logging"
-  >
+  <Card title="Logging" icon="shield" href="/sever-configuration/logging">
     Learn about moderation commands and features
   </Card>
-  <Card
-    title="AutoMod"
-    icon="bot"
-    href="/security/automod"
-  >
+  <Card title="AutoMod" icon="bot" href="/security/automod">
     Configure AutoMod settings and filters
   </Card>
-  <Card
-    title="AntiNuke"
-    icon="lock"
-    href="/security/antinuke"
-  >
+  <Card title="AntiNuke" icon="lock" href="/security/antinuke">
     Set up server protection against malicious actions
   </Card>
-  <Card
-    title="Voice Master"
-    icon="audio-lines"
-    href="/server-configuration/voicemaster"
-  >
+  <Card title="Voice Master" icon="audio-lines" href="/server-configuration/voicemaster">
     Configure voice channel management
   </Card>
 </CardGroup>
