@@ -1,97 +1,129 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: 'Quick Start'
+description: 'Get started with miko in your Discord server'
 ---
 
-## Setting up
+<Steps>
+  <Step title="Bot Permissions">
+    <p>Before adding Greed to your server, ensure you have the following permissions:</p>
+    <ul>
+      <li>Administrator permission or equivalent permissions</li>
+      <li>Bot role must be in the top 5 roles of your server</li>
+      <li>Manage Channels permission for voice features</li>
+      <li>Manage Roles permission for moderation features</li>
+    </ul>
+  </Step>
 
-Get your documentation site up and running in minutes.
+  <Step title="add miko to tour Server">
+    <p>Click the button below to add Greed to your server:</p>
+    <Button href="https://discord.com/oauth2/authorize?client_id=1149535834756874250" variant="primary">
+      Add to Server
+    </Button>
+  </Step>
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+  <Step title="basic setup">
+    <p>after adding miko, run these essential setup commands:</p>
+    <CodeGroup>
+      <CodeGroupItem title="Moderation Setup">
+        ```bash
+        ,setup
+        ```
+        Creates a jail channel, log channel, and jail role for moderation
+      </CodeGroupItem>
+      <CodeGroupItem title="Voice Master Setup">
+        ```bash
+        ,voicemaster setup
+        ```
+        Sets up join-to-create voice channels
+      </CodeGroupItem>
+      <CodeGroupItem title="AutoMod Setup">
+        ```bash
+        ,filter setup
+        ```
+        Initializes automod to protect your server
+      </CodeGroupItem>
+      <CodeGroupItem title="AntiNuke Setup">
+        ```bash
+        ,antinuke setup
+        ```
+        Configures server protection against malicious actions
+      </CodeGroupItem>
+    </CodeGroup>
+  </Step>
 
-## Make it yours
+<Step title="Configure Prefix">
+  Greed's default prefix is <code>,</code>. To change it, use:
+  ```bash
+  ,prefix <new_prefix>
+  ```
+</Step>
+</Steps>
 
-Design a docs site that looks great and empowers your users.
-
-<Columns cols={2}>
+<CardGroup cols={2}>
   <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
+    title="Need Help?"
+    icon="info"
+    href="https://discord.gg/greedbot"
   >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
-
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
+    Join our support server for assistance
   </Card>
   <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
+    title="Commands"
+    icon="book"
+    href="/commands"
   >
-    Display images and other media.
+    Browse our comprehensive command list
+  </Card>
+</CardGroup>
+
+<AccordionGroup>
+  <Accordion title="Terms of Service">
+    By using Greed, you agree to:
+    <ul>
+      <li>Use the bot in compliance with Discord's Terms of Service</li>
+      <li>Not use the bot for malicious purposes</li>
+      <li>Not attempt to exploit or abuse the bot's features</li>
+      <li>Not use the bot to violate any laws or regulations</li>
+    </ul>
+  </Accordion>
+  <Accordion title="Privacy Policy">
+    Greed collects and stores:
+    <ul>
+      <li>Server configuration data</li>
+      <li>User moderation history</li>
+      <li>Command usage statistics</li>
+      <li>No personal data is collected or stored</li>
+    </ul>
+  </Accordion>
+</AccordionGroup>
+
+<CardGroup cols={2}>
+  <Card
+    title="Logging"
+    icon="shield"
+    href="/sever-configuration/logging"
+  >
+    Learn about moderation commands and features
   </Card>
   <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
+    title="AutoMod"
+    icon="bot"
+    href="/security/automod"
   >
-    Write once and reuse across your docs.
+    Configure AutoMod settings and filters
   </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+  <Card
+    title="AntiNuke"
+    icon="lock"
+    href="/security/antinuke"
+  >
+    Set up server protection against malicious actions
+  </Card>
+  <Card
+    title="Voice Master"
+    icon="audio-lines"
+    href="/server-configuration/voicemaster"
+  >
+    Configure voice channel management
+  </Card>
+</CardGroup>
