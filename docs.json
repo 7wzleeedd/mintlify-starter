@@ -17,7 +17,7 @@
             "group": "start",
             "pages": [
               "index",
-              "quickstart",
+              "ticket",
               "development"
             ]
           },
