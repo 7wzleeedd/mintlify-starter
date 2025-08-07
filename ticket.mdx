@@ -1,33 +1,28 @@
 ---
-title: "ticket system" 
+title: "ticket system"
 description: "efficiently manage support requests and user inquiries with bajo's ticket system."
 ---
 
 bajo's ticket system provides a streamlined and organized way for your server members to get support and for your staff to manage inquiries efficiently. it creates dedicated private channels for each support request, ensuring privacy and clarity.
 
-<info>
-the ticket system allows for direct, private communication between a user and your designated support staff.
-</info>
+<Info>
+  the ticket system allows for direct, private communication between a user and your designated support staff.
+</Info>
 
 how it works
 when a user needs assistance, they can open a ticket through a designated panel message in your server. this creates a new, private text channel where they can describe their issue. your support staff can then join the channel to provide help. once the issue is resolved, the ticket can be closed, and a transcript of the conversation is saved for records.
 
-<warning>
-ensure bajo has the necessary permissions (manage channels, manage roles, send messages, read message history) in the relevant categories and channels for the ticket system to function correctly.
-</warning>
+<Warning>
+  ensure bajo has the necessary permissions (manage channels, manage roles, send messages, read message history) in the relevant categories and channels for the ticket system to function correctly.
+</Warning>
 
-getting started
-to set up the ticket system, an administrator can use the /ticketsetup command. this command will guide you through creating the essential components:
 
-bojo ticket admin role: for server administrators who can configure the system and manage all tickets.
-
-bojo ticket helper role: for support staff who will respond to tickets.
-
-tickets category: a channel category where all new ticket channels will be created.
-
-create-ticket channel: the public channel where users click a button to open a new ticket.
-
-ticket-logs channel: a private channel where transcripts of closed tickets are sent for record-keeping.
+<Accordion title="thats whats created/needed" icon="info">
+  - bojo ticket helper role: for support staff who will respond to tickets.
+  - tickets category: a channel category where all new ticket channels will be created.
+  - ceate-ticket channel: the public channel where users click a button to open a new ticket.
+  - ticket-logs channel: a private channel where transcripts of closed tickets are sent for record-keeping.
+</Accordion>
 
 after running the setup command, you'll receive an interactive panel message in the create-ticket channel. you can use the buttons on this panel to customize its appearance (title, description, footer, and color) before finalizing the setup.
 
