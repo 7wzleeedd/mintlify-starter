@@ -71,19 +71,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "documentation",
+          "href": "https://docs.bojo.wtf",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "community",
           "href": "https://mintlify.com/community",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
