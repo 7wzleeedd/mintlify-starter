@@ -21,9 +21,9 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "information",
             "pages": [
-              "essentials/settings",
+              "earlyaccess",
               "essentials/navigation"
             ]
           },
