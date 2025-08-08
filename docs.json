@@ -17,8 +17,7 @@
             "group": "start",
             "pages": [
               "index",
-              "ticket",
-              ""
+              "ticket"
             ]
           },
           {
@@ -46,21 +45,20 @@
             ]
           }
         ]
+      }
+    ],
+    "anchors": [
+      {
+        "anchor": "documentation",
+        "href": "https://docs.bojo.wtf",
+        "icon": "book-open-cover"
       },
-    "global": {
-      "anchors": [
-        {
-          "anchor": "documentation",
-          "href": "https://docs.bojo.wtf",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        }
-      ]
-    }
+      {
+        "anchor": "community",
+        "href": "https://mintlify.com/community",
+        "icon": "slack"
+      }
+    ]
   },
   "logo": {
     "light": "/logos/light.png",
@@ -81,9 +79,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/",
+      "github": "https://github.com/teshoubackup"
     }
   }
 }
